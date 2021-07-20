@@ -1,0 +1,107 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(238, 236, 232);
+}
+.mainNavbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  justify-content: space-between;
+  letter-spacing: 2px;
+  padding: 15px;
+  overflow: hidden;
+  background-color: rgb(122, 153, 132);
+  border: 2px solid rgb(207, 201, 201);
+  border-radius: 50px 20px;
+}
+.subNavbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.subNavbar a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: rgb(15, 15, 15);
+}
+
+.mainNavbar a:hover {
+  /* background: rgb(86, 190, 104); */
+  color: rgb(241, 245, 242);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer {
+  /* position: fixed; */
+  height: 12px;
+  background-color: rgb(192, 189, 189);
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card-body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  font-weight: 500;
+  width: 90%;
+  color: rgb(121, 119, 119);
+  background: rgba(196, 192, 192, 0.13);
+  padding: 20px 10px;
+  border-radius: 10px 20px;
+  float: left;
+  margin-top: 10px;
+  /* margin-left: 50px; */
+  /* overflow: hidden; */
+}
+.servicesSubContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  margin-left: 50px;
+}
+
+.servicesSubContainer h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(226, 181, 82);
+  margin-top: 30px;
+}
+.servicesSubContainer h2 {
+  /* margin-left: 20px; */
+  font-size: 45px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(56, 56, 53);
+  /* padding-bottom: 20px; */
+}
+
+@media only screen and (max-width: 768px) {
+  .card-body p {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    font-weight: 500;
+    width: 90%;
+    color: rgb(121, 119, 119);
+    background: rgba(196, 192, 192, 0.13);
+    padding: 20px 10px;
+    border-radius: 10px 20px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .card-body h3 {
+    font-size: 25px;
+  }
+  .servicesSubContainer h2 {
+    font-size: 35px;
+  }
+}
